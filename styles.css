@@ -1,0 +1,71 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+label {
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+}
+
+form {
+	margin: 30px;
+}
+
+form li + li {
+	margin-top: 10px;
+}
+
+label {
+	text-align: right;
+	width: 60px;
+	display: inline-block;
+}
+
+input, textarea {
+	font: 0.9em sans-serif;
+	width: 415px;
+	box-sizing: border-box;
+	border: 1px solid gray;
+}
+
+input:focus, textarea:focus {
+	border-color: chartreuse;
+}
+
+textarea {
+	height: 150px;
+	vertical-align: top;
+}
+
+label {
+	font-style: italic;
+}
+
+.button {
+	padding-left: 30px;
+}
+
+button {
+	margin-left: 2.5em;
+}
